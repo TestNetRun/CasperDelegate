@@ -2,6 +2,22 @@
 
 These scripts are written to help CSPR token holders easily delegate their tokens on validators on the Casper mainnet until the full-featured UI solution arrives. Inspect the scipts and use at your won risk!
 
+## Prerequisites
+In order to delegate your tokens, you should have created a wallet for yourself, and transferred your tokens from the ecxhange to your wallet. If you don't have a wallet, you can create one, following these steps:
+* Install Brave browser (recommended) or Chrome.
+  * Brave: https://brave.com/
+  * Chrome: https://www.google.com/intl/en/chrome/
+* Go to Casper Explorer's login page: https://cspr.live/sign-in
+* Click on the "Download Signer" button, and wait for the "CasperLabs Signer" extension page to open.
+* Click on the "Add to Chrome" button and install the official extension (We will call it "Casper Signer". It is your wallet.)
+* Click on the "Extensions" button (puzzle piece shaped icon) on top right, and select CasperLabs Signer
+* Set the vault password, and create an account (make sure the `Download Key` box is selected)
+* Save your key to a proper location. This is your account key. Whoever has this key owns the account. So make multiple copies of it (copy to a clean USB thum drive, print it on paper etc.) and store them safely. Do not ever share it with anyone.
+* Now go to https://cspr.live/sign-in and click on the `Sign In` button under the `Casper Signer` section, and sign into the Casper explorer with your account. (This is the official explorer. It may ask for permission to view your account address. Approve and connect.)
+* After signing in, you will see your account number on top right. (Next to the language flag.) Click on your account address, and then click `View account`.
+* Your account details are shown here. If it is a new (empty) account, You will see `NA` in the `Account Balance` field.
+* The `Public Key` shown here is your account number. You can use it to transfer funds to your account from the exchanges.
+
 ## Installation
 * Access an Ubuntu 20.04 environment (with at least 2GB of RAM for minimal, at least 3GB RAM for desktop intallations) as root. If you don't have access already, you can try one of the following ways:
   * You can do it by firing up a node on Digital Ocean (Ref link for free credits for new signups: https://m.do.co/c/0b83fa02ff5a), and accessing it through ssh (from MacOS terminal or from Windows Terminal)
