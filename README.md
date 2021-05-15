@@ -17,6 +17,10 @@ In order to delegate your tokens, you should have created a wallet for yourself,
 * After signing in, you will see your account number on top right. (Next to the language flag.) Click on your account address, and then click `View account`.
 * Your account details are shown here. If it is a new (empty) account, You will see `NA` in the `Account Balance` field.
 * The `Public Key` shown here is your account number. You can use it to transfer funds to your account from the exchanges.
+* Notes:
+  * Always try transfer and delegation with a small amount first, and make sure everything works as expected.
+  * Sometimes cspr.live or the brave browser might not update the account details page properly. So if you do a transfer and can't see the account balance after
+    a long time, try closing the browser tab completely, opening it again, and signing back in.
 
 ## Installation
 * Access an Ubuntu 20.04 environment (with at least 2GB of RAM for minimal, at least 3GB RAM for desktop intallations) as root. If you don't have access already, you can try one of the following ways:
