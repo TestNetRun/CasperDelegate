@@ -39,5 +39,6 @@ In order to delegate your tokens, you should have created a wallet for yourself,
   * Make sure the validator you choose has an acceptable commision rate and is capable of keeping a high uptime.
   * Feel free to join our telegram group if you delegate on our validator node, to get updated on important changes: https://t.me/CasperDelegation
   * Otherwise, you can ask general questions on the official Casper discord server: https://discord.com/invite/Q38s3Vh
+  * List of current validators: https://cspr.live/validators
 * Start the delegation script and follow the instructions: `./delegate`
 * Take note of the `deployment hash`. If it all goes well, you can see the result of your delegation in a few minutes by copy-pasting your deployment hash on cspr.live.
