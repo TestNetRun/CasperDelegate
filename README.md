@@ -1,6 +1,6 @@
 # Casper Delegate Scripts - the command-line way
 
-These scripts are written to help CSPR token holders easily delegate their tokens on validators on the Casper mainnet until the full-featured UI solution arrives. Inspect the scipts and use at your won risk!
+These scripts are written to help CSPR token holders easily delegate their tokens on validators on the Casper mainnet until the full-featured UI solution arrives. Inspect the scipts and use at your own risk!
 
 ## Prerequisites
 In order to delegate your tokens, you should have created a wallet for yourself, and transferred your tokens from the ecxhange to your wallet. If you don't have a wallet, you can create one, following these steps:
