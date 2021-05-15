@@ -3,7 +3,7 @@
 These scripts are written to help CSPR token holders easily delegate their tokens on validators on the Casper mainnet until the full-featured UI solution arrives. Inspect the scipts and use at your won risk!
 
 ## Installation
-* Access an Ubuntu 20.04 environment as root. If you don't have access already, you can try one of the following ways:
+* Access an Ubuntu 20.04 environment (with at least 2GB of RAM for minimal, at least 3GB RAM for desktop intallations) as root. If you don't have access already, you can try one of the following ways:
   * You can do it by firing up a node on Digital Ocean (Ref link for free credits for new signups: https://m.do.co/c/0b83fa02ff5a), and accessing it through ssh (from MacOS terminal or from Windows Terminal)
   * Install VirtualBox or another VM solution on your PC and install Ubuntu 20.04 in it
   * Enable Windows Subsystem for Linux 2 and install Ubuntu 20.04 from the store
