@@ -21,3 +21,6 @@ The cost of the delegation process is ~3 CSPR. So make sure you have a bunch of 
 
 ## What is the yearly reward rate for the delegated tokens?
 APY is currently around 20% on the mainnet. This value is result of a rough calculation done on 2021-05-16, and may change over time.
+
+## How can I delegate my tokens?
+Currently, you need to go the command-line way for staking/delegation until the user-friendly UI is released. If you are familiar with the command-line, head over here: https://github.com/TestNetRun/CasperDelegate/blob/main/README.md
