@@ -4,6 +4,5 @@ This is a community-provided collection of questions and answers to frequently a
 
 If you see anything incorrect, or something missing, plese feel free to create a pull request to contribute.
 
-* **What is delegation?**
+## What is delegation?
 * You can delegate your CSPR tokens to participate in the protocol on a validator node on the Casper network. This way, you help to improve decentralization and security of the network, and earn staking rewards in return.
-* 
