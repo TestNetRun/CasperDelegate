@@ -2,6 +2,9 @@
 
 These scripts are written to help CSPR token holders easily delegate their tokens on validators on the Casper mainnet until the full-featured UI solution arrives. Inspect the scipts and use at your own risk!
 
+## Have questions about Casper delegation/staking?
+See [Casper Delegation/staking FAQ](https://github.com/TestNetRun/CasperDelegate/blob/main/FAQ.md).
+
 ## Prerequisites
 In order to delegate your tokens, you should have created a wallet for yourself, and transferred your tokens from the ecxhange to your wallet. If you don't have a wallet, you can create one, following these steps:
 * Install Brave browser (recommended) or Chrome.
