@@ -16,7 +16,7 @@ Staking rewards are paid to your account on a per ERA basis. One Era is currentl
 While there is a delay before you can access your previously delegated tokens, there is no cool-down or lock period after you delegate tokens. You can undelegate any amount of tokens at any time. Upon undelegating tokens from a validator, the network puts funds on hold for 7 Eras, approximately 14 hours and then automatically returns the CSPR tokens to your account.
 
 ## Is there slashing? Can I lose my delegated tokens?
-Currently, slashing is not enabled on the Casper MainNet. If a validator behaves poorly on the network they may be evicted from the auction and your rewards will be lost in the time period the validator is evicted. When slashing is enabled, tokens will be removed as penalty for poor behavior in the network.d from the network. In that case, you will lose the rewards which would be earned in that time period.
+Currently, slashing is not enabled on the Casper MainNet. If a validator behaves poorly on the network they may be evicted from the auction and your rewards will be lost in the time period the validator is evicted. When slashing is enabled, tokens will be removed as penalty for poor behavior in the network. In that case, you will lose the rewards which would be earned in that time period.
 
 ## What is the cost of delegation and undelegation?
 The cost of the delegation process is ~3 CSPR. So make sure you have a bunch of extra CSPR on your account apart from the amount you are delegating. So if you are going to delegate 1000 CSPR, you should have at least 1003 CSPR in your wallet.The cost of the undelegate process is currently 0.00001 CSPR.
