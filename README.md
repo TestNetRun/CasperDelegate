@@ -28,7 +28,7 @@ In order to delegate your tokens, you should have created a wallet for yourself,
 ## Installation
 * Access an Ubuntu 20.04 environment (with at least 2GB of RAM for minimal, at least 3GB RAM for desktop intallations) as root. If you don't have access already, you can try one of the following ways:
   * You can do it by firing up a node on Digital Ocean (Ref link for free credits for new signups: https://m.do.co/c/0b83fa02ff5a), and accessing it through ssh (from MacOS terminal or from Windows Terminal)
-    * Notes on using a cloud VM/VPS: If possible, go with a decent VPS with an hourly rate. You can quickly finish your job, then detroy the VPS. Once you are done with delegation, if you intend to keep it delegated for a long time, then you don't need the VPS anymore. Your delegation record is kept on the network, not on your VPS. Just make sure you safely backed up your wallet/private key beforehand!
+    * **Notes on using a cloud VM/VPS:** If possible, go with a decent VPS with an hourly rate. You can quickly finish your job, then detroy the VPS. Once you are done with delegation, if you intend to keep it delegated for a long time, then you don't need the VPS anymore. Your delegation record is kept on the network, not on your VPS. Just make sure you safely backed up your wallet/private key beforehand!
   * Install VirtualBox or another VM solution on your PC and install Ubuntu 20.04 in it
   * Enable Windows Subsystem for Linux 2 and install Ubuntu 20.04 from the store
 * Copy your account file into your home directory (`/root`) on Ubuntu with the name `privkey.pem`
