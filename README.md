@@ -37,12 +37,12 @@ In order to delegate your tokens, you should have created a wallet for yourself,
 * Install the packages and build the smart contracts: `./setup.sh`
 
 ## Delegation
-* Fund your account and check its balance with `./balance ACCOUNT-ADDRESS`
+* Fund your account and check its balance with `./balance.sh ACCOUNT-ADDRESS`
 * Make sure you have enough number of CSPR in it. You will need at least 3 additional CSPR which will be the cost of the delegation procedure.
 * Find yourself a validator and note down their public key (You're welcome to delegate on our community node: 01c377281132044bd3278b039925eeb3efdb9d99dd5f46d9ec6a764add34581af7)
   * Make sure the validator you choose has an acceptable commision rate and is capable of keeping a high uptime.
   * Feel free to join our telegram group if you delegate on our validator node, to get updated on important changes: https://t.me/CasperDelegation
   * Otherwise, you can ask general questions on the official Casper discord server: https://discord.com/invite/Q38s3Vh
   * List of current validators: https://cspr.live/validators
-* Start the delegation script and follow the instructions: `./delegate`
+* Start the delegation script and follow the instructions: `./delegate.sh`
 * Take note of the `deployment hash`. If it all goes well, you can see the result of your delegation in a few minutes by copy-pasting your deployment hash on cspr.live.
