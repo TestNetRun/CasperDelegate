@@ -32,6 +32,7 @@ In order to delegate your tokens, you should have created a wallet for yourself,
   * Install VirtualBox or another VM solution on your PC and install Ubuntu 20.04 in it
   * Enable Windows Subsystem for Linux 2 and install Ubuntu 20.04 from the store
 * Copy your account file into your home directory (`/root`) on Ubuntu with the name `privkey.pem`
+* Install git and curl: `apt install -y git curl`
 * Clone this repository: `git clone https://github.com/TestNetRun/CasperDelegate.git`
 * Move into it: `cd CasperDelegate`
 * Install the packages and build the smart contracts: `./setup.sh`
