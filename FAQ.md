@@ -27,7 +27,13 @@ APY is currently around 20% on the mainnet. This value is result of a rough calc
 ## I see some validators with big stake producing blocks, and some smaller ones not. Does that mean only the bigger ones are getting rewards?
 No. On Casper Mainnet, everyone gets seigniorage according to their stake, regardless of whether you've produced blocks or not. The only thing a block proposer gets, is to keep the transaction fees associated with transfers and deploys in the block they proposed. As you know, transfers cost 10000 motes (0.00001 CSPR), so not huge amounts, these fees.
 
-The block proposer is chosen also based on odds relative to stake, so if you have 0.1% of stake on the network, the odds that you'll get chosen as the block proposer are very small. This has nothing to do with seigniorage. 
+The block proposer is chosen also based on odds relative to stake, so if you have 0.1% of stake on the network, the odds that you'll get chosen as the block proposer are very small. This has nothing to do with seigniorage.
+
+## Some top validators have a commission rate of 100%. What does that mean?
+Validators with Delegation rate of 100 are ones that either don't want to or are restricted from acting as a staking service. You will earn nothing from them.
+
+## How should I choose a validator? Why are many different commision rates?
+Reasonable rates are 10% or less. The signalling there is that the 10% validator thinks they earn it, the lower one's are trying to attract people and get more delegation. Once there is sufficient analytics of node performance, décision making becomes **pick the best performing validator with the lowest delegation rate**.
 
 ## How can I delegate my tokens?
 Currently, you need to go the command-line way for staking/delegation until the user-friendly UI is released. If you are familiar with the command-line, head over here: https://github.com/TestNetRun/CasperDelegate/blob/main/README.md
