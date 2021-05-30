@@ -24,5 +24,10 @@ The cost of the delegation process is ~3 CSPR. So make sure you have a bunch of 
 ## What is the yearly reward rate for the delegated tokens?
 APY is currently around 20% on the mainnet. This value is result of a rough calculation done on 2021-05-16, and may change over time.
 
+## I see some validators with big stake producing blocks, and some smaller ones not. Does that mean only the bigger ones are getting rewards?
+No. On Casper Mainnet, everyone gets seigniorage according to their stake, regardless of whether you've produced blocks or not. The only thing a block proposer gets, is to keep the transaction fees associated with transfers and deploys in the block they proposed. As you know, transfers cost 10000 motes (0.00001 CSPR), so not huge amounts, these fees.
+
+The block proposer is chosen also based on odds relative to stake, so if you have 0.1% of stake on the network, the odds that you'll get chosen as the block proposer are very small. This has nothing to do with seigniorage. 
+
 ## How can I delegate my tokens?
 Currently, you need to go the command-line way for staking/delegation until the user-friendly UI is released. If you are familiar with the command-line, head over here: https://github.com/TestNetRun/CasperDelegate/blob/main/README.md
