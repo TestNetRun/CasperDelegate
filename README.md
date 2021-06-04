@@ -47,3 +47,13 @@ In order to delegate your tokens, you should have created a wallet for yourself,
   * List of current validators: https://cspr.live/validators
 * Start the delegation script and follow the instructions: `./delegate.sh`
 * Take note of the `deployment hash`. If it all goes well, you can see the result of your delegation in a few minutes by copy-pasting your deployment hash on cspr.live.
+
+## Undelegation
+* Check your account's balance with `./balance.sh ACCOUNT-ADDRESS`
+* Make sure you have enough number of CSPR to cover the gas fee for undelegation. You will need at least 0.5 CSPR which will be the cost of the undelegation procedure.
+* Note down the public key address of the validator you have your tokens currently delegated on.
+* Start the undelegation script and follow the instructions: `./undelegate.sh`
+* Take note of the `deployment hash`. If it all goes well, you can see the result of your undelegation in a few minutes by copy-pasting your deployment hash on cspr.live.
+  * After seeing success status on your undelegation, the network will keep your funds locked for ~14 hours (7 eras), and then automatically return to your wallet.
+  * You can do partial undelegations. For example, if you have 10K CSPR staked, you can undelegate 1K of it and leave the rest staked.
+  
