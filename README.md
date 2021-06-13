@@ -5,8 +5,8 @@ These scripts are written to help CSPR token holders easily delegate their token
 **These scripts are no longer needed as the new friendly UI staking option is available, but they will be kept here as reference and as a backup options.**
 
 You are always welcome to stake your tokens on our community validator. It is well-maintained, and has 1% commission rate.
-Public key: 01c377281132044bd3278b039925eeb3efdb9d99dd5f46d9ec6a764add34581af7
-Telegram group for help & discussion: https://t.me/CasperDelegation
+* Public key: 01c377281132044bd3278b039925eeb3efdb9d99dd5f46d9ec6a764add34581af7
+* Telegram group for help & discussion: https://t.me/CasperDelegation
 
 ## Have questions about Casper delegation/staking?
 See [Casper Delegation/staking FAQ](https://github.com/TestNetRun/CasperDelegate/blob/main/FAQ.md).
