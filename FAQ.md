@@ -36,4 +36,8 @@ Validators with Delegation rate of 100 are ones that either don't want to or are
 Reasonable rates are 10% or less. The signalling there is that the 10% validator thinks they earn it, the lower one's are trying to attract people and get more delegation. Once there is sufficient analytics of node performance, décision making becomes **pick the best performing validator with the lowest delegation rate**.
 
 ## How can I delegate my tokens?
-Currently, you need to go the command-line way for staking/delegation until the user-friendly UI is released. If you are familiar with the command-line, head over here: https://github.com/TestNetRun/CasperDelegate/blob/main/README.md
+An easy, web-based staking UI is now available at https://cspr.live/delegate-stake.
+
+For those using the Casper Signer browser plug-in, available for Chrome, Brave and all other Chromium based browsers, delegating your CSPR to a Validator is now as simple as a few clicks. In addition to delegation, CSPR.live today also offers the ability un-delegate stake, and to make account-to-account transfers via a simple web-based UI.
+
+For the steps on installing the official Casper Signer extension and creating & funding your account, follow the `Prerequisites` part of our legacy instructions: https://github.com/TestNetRun/CasperDelegate#prerequisites
