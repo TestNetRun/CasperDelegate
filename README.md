@@ -2,6 +2,8 @@
 
 These scripts are written to help CSPR token holders easily delegate their tokens on validators on the Casper mainnet until the full-featured UI solution arrives. Inspect the scipts and use at your own risk!
 
+**These scripts are no longer needed as the new friendly UI staking option is available, but they will be kept here as reference and as a backup options.**
+
 ## Have questions about Casper delegation/staking?
 See [Casper Delegation/staking FAQ](https://github.com/TestNetRun/CasperDelegate/blob/main/FAQ.md).
 
