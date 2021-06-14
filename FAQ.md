@@ -10,7 +10,10 @@ Delegation allocates your CSPR tokens to a chosen validator on the network who i
 Instead of having to operate and maintain a casper node (server that stores a copy of the blockchain), you can instead delegate your tokens to someone on the network who has indicated they intend to operate a server on the network. These server operators are called Validators, and they keep a certain percentage of rewards generated from your staked tokens, similar to a commission. Validators set their own fee, as well as earn rewards for their own staked tokens. By particitating in the protocol this way, you help to improve decentralization and security of the network, and earn  rewards in return.
 
 ## How frequently the staking rewards are paid?
-Staking rewards are paid to your account on a per ERA basis. One Era is currently set to 2 hours, and each block is set for 65 seconds.
+Staking rewards are paid to your account on a per ERA basis. One Era is currently set to 2 hours, and each block is set for 65 seconds. For the first reward to appear after delegation/staking, it may take upto 2 ERAs (~4 hours).
+
+## I've delegated my tokens but the rewards don't arrive at my wallet?
+The rewards are automatically added to your current stake on the corresponding validator. You may observe them under the Rewards tab on your account details page on cspr.live. For the first reward to appear after delegation/staking, it may take upto 2 ERAs (~4 hours).
 
 ## Is there a cool-down/lock period after delegation?
 While there is a delay before you can access your previously delegated tokens, there is no cool-down or lock period after you delegate tokens. You can undelegate any amount of tokens at any time. Upon undelegating tokens from a validator, the network puts funds on hold for 7 Eras, approximately 14 hours and then automatically returns the CSPR tokens to your account.
