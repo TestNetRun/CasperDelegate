@@ -36,7 +36,7 @@ The block proposer is chosen also based on odds relative to stake, so if you hav
 Validators with Delegation rate of 100 are ones that either don't want to or are restricted from acting as a staking service. You will earn nothing from them.
 
 ## How should I choose a validator? Why are many different commision rates?
-Reasonable rates are 10% or less. The signalling there is that the 10% validator thinks they earn it, the lower one's are trying to attract people and get more delegation. Once there is sufficient analytics of node performance, décision making becomes **pick the best performing validator with the lowest delegation rate**.
+Reasonable rates are 10% or less. The signalling there is that the 10% validator thinks they earn it, the lower one's are trying to attract people and get more delegation. Once there is sufficient analytics of node performance, décision making becomes **pick the best performing validator with the lowest commission rate**.
 
 ## How can I delegate my tokens?
 An easy, web-based staking UI is now available at https://cspr.live/delegate-stake.
